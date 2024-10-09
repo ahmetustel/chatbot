@@ -54,7 +54,7 @@ module.exports = {
 
 ### 4. Start the server
 
-In the root directory, first run mongodb locally and then run the following command to start the Express server:
+In the root directory, first run mongodb locally (for me <brew services start mongodb-community@6.0>) and then run the following command to start the Express server:
 nodemon
 This will launch the backend server on http://localhost:5001.
 
