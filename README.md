@@ -38,19 +38,10 @@ yarn install
 
 ### 3. Set up environment variables:
 
-/api/config.js
-```bash
-let path = require("path");
-module.exports = {
-  MONGODB_URI:
-    "mongodb://127.0.0.1:27017/chatbotdb",
-  openAI: {
-    API_KEY:YOUR_API_KEY,
-    organization: YOUR_ORGANIZATION,
-    project: YOUR_PROJECT,
-  },
-};
-```
+MONGODB_URI=mongodb://127.0.0.1:27017/chatbotdb
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_ORGANIZATION=your_organization
+OPENAI_PROJECT=your_project
 
 ### 4. Start the server
 
