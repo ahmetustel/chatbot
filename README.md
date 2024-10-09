@@ -38,10 +38,12 @@ yarn install
 
 ### 3. Set up environment variables:
 
-   MONGODB_URI=mongodb://127.0.0.1:27017/chatbotdb
-   OPENAI_API_KEY=your_openai_api_key
-   OPENAI_ORGANIZATION=your_organization
-   OPENAI_PROJECT=your_project
+```bash
+MONGODB_URI=mongodb://127.0.0.1:27017/chatbotdb
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_ORGANIZATION=your_organization
+OPENAI_PROJECT=your_project
+```
 
 ### 4. Start the server
 
