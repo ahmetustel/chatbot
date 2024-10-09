@@ -43,7 +43,7 @@ yarn install
 let path = require("path");
 module.exports = {
   MONGODB_URI:
-    "mongodb+srv://accessContol:AANB16BE6fWSbRCG@chatbot.nqr4o.mongodb.net/chatbot?authSource=admin",
+    "mongodb://127.0.0.1:27017/chatbotdb",
   openAI: {
     API_KEY:YOUR_API_KEY,
     organization: YOUR_ORGANIZATION,
@@ -54,7 +54,7 @@ module.exports = {
 
 ### 4. Start the server
 
-In the root directory, run the following command to start the Express server:
+In the root directory, first run mongodb locally and then run the following command to start the Express server:
 nodemon
 This will launch the backend server on http://localhost:5001.
 
